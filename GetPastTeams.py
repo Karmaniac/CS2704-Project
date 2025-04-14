@@ -16,7 +16,7 @@ listOfID = ["44151f7a-0f24-11e2-8525-18a905767e44",
 
 
 def get_posts(teamID, year):
-    url = "https://api.sportradar.com/nhl/trial/v7/en/seasons/" + str(year) + "/REG/standings.json?api_key=kWU8LccfOOFCnZmTMMET47ruxK328WlwUZBzJSDt"
+    url = "https://api.sportradar.com/nhl/trial/v7/en/seasons/" + str(year) + "/REG/standings.json?api_key="
     headers = {"accept": "application/json"}
     try:
         response = requests.get(url, headers=headers)
